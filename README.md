@@ -4,7 +4,7 @@
 ## Usage
 0. Ensure you have docker installed and running
 1. Clone this repo
-2. Replace username 'jesnon' and password with yours in Dockerfile, build.sh, and run.sh.
+2. Replace username 'jenson' and password with yours in Dockerfile, build.sh, and run.sh.
 3. Open terminal and run, `chmod +x build.sh`
 4. And run `chmod +x run.sh`
 5. Run `./build.sh`
