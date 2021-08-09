@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install -y tzdata && \
     apt-get install -y sudo curl git-core gnupg locales nodejs zsh wget nano nodejs npm fonts-powerline && \
     locale-gen en_US.UTF-8 && \
-    adduser --quiet --disabled-password --shell /bin/zsh --home /home/devuser --gecos "User" devuser && \
+    adduser --quiet --disabled-password --shell /bin/zsh --home /home/jenson --gecos "User" jenson && \
     echo "jenson:password" | chpasswd &&  usermod -aG sudo jenson
 
 ADD scripts/installthemes.sh /home/devuser/installthemes.sh
