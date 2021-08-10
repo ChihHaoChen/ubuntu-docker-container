@@ -1,1 +1,1 @@
-docker run --rm -it ubuntu:jenson
+docker run -d --name rollupPurpose --mount source=rollupVol,target=/app  -it ubuntu:jenson

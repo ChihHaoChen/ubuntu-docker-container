@@ -8,8 +8,9 @@
 3. Open terminal and run, `chmod +x build.sh`
 4. And run `chmod +x run.sh`
 5. Run `./build.sh`
-6. Run `./run.sh`
-
+6. Run `./run.sh` 
+7. Run the command `docker start rollupPurpose(or your container's name)`
+8. After the container starts, you can get into the console by `docker exec -it rollupPurpose zsh`
 
 # If you wish to change the zsh theme, 
 
